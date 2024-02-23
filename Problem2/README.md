@@ -3,6 +3,9 @@
 Have the latest python3 version
 python3 Problem1.py
 
+# How to change parameters
+Change N at the top of the file to change number of guests
+
 # Best Strategy
 
 I dismissed strategy 1 off the bat because it is only effective if each guest spends a small amount of time in the room and also if there are few guests. As both of these variables increase this strategy will cause overcrowding and fighting to get in which is not ideal.
