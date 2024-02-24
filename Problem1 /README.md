@@ -1,6 +1,7 @@
 # How to Run
 
 Have the latest python3 version
+
 python3 Problem1.py
 
 # How to Change Parameters
