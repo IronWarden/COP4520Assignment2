@@ -1,6 +1,7 @@
 # How to Run
 
 Have the latest python3 version
+
 python3 Problem1.py
 
 # How to change parameters
@@ -23,7 +24,7 @@ We can use a shared global variable sign to allow threads to see if the crystal 
 
 # Efficiency
 
-There is a lot of randomness implemented to simulate the situation so it's hard to calculate the runtime respective of the number of guests. If I didn't use sleeps it would be instantaneous as all that's going on is threads constantly checking if the room is available, entering it (changing the sign), passing time, exiting it (changing the sign).
+There is a lot of randomness implemented to simulate the situation so it's hard to calculate the runtime respective of the number of guests. If I didn't use sleeps it would be instantaneous as all that's going on is threads constantly checking if the room is available, entering it (changing the sign), passing time, and exiting it (changing the sign).
 
 # Experimental Evaluation
 I have tested it on small N sizes as larger ones will take more time due to the nature of it passing time. The output was correct in showing how the situation would unfold. 
